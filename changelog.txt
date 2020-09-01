@@ -1,0 +1,85 @@
+v 1.3.4
+- Fix PorkyTube returning no results
+
+v 1.3.3
+- Fixed Fire Stick installation failure for addon.
+- Updated URLQuick to v0.9.4 for compatibility with Fire Stick fixing HUBGay addon which relies on URLQuick
+
+v 1.3.0
+- Continue implementing new play and resolver changes
+- Add download context menu back to items
+- Additional bug fixes
+
+v 1.2.0
+- NEW PLAY FUNCTION
+- Total rewrite of the video play code to fix many bugs in playback
+- Fixes errors resolving and finding playable video files
+- Fixes playback bugs with start stop and looping and go back
+
+v 1.1.1
+- More bug fixes for ALL CATEGORIES
+- Play bug fix
+
+v 1.1.0
+- Fixed Pornhub and XTube which changed the API
+- Fixed XBMCSWIFT2 changes from Kodiswift
+
+v 1.0.3
+- bug fix
+
+v 1.0.2
+- bug fix
+
+v 1.0.1
+- bug fix
+
+v 1.0.0
+- First version trying xbmcswift2 framework instead of kodiswift for stability
+- removed urllib2 refs
+
+v 0.9.11
+- Added Download to Tumblr videos
+- Tried to add sort methods to tumblr blog list of videos
+- A step closer to v1.0
+
+v 0.9.10
+ - Fixed a list index error in tumblr
+
+v 0.9.9
+ - Tumblr updates
+ - Support multiple blogs displayed as list in Tumblr folder
+ - Add blogs to list in settings seperate each tumblr blog name with a "|"
+ - Displays thumbnail retrieved from the blogs page
+ - Adds next page to get previous months from blog
+
+v 0.9.8
+- Still working on tumblr It now works with any tumblr site and you can spedcify which blog it looks for video's at in the settings. The next/retrieve older is still a work in progress though.
+
+v 0.9.7
+- Improving the Tumblr function now to work for any blog specified in the settings. It uses the Tumblr Archive to request only video's from the blog. Next feature once this works well will be to allow for multiple tumblr sites to be displayed and browsed.
+
+v 0.9.6
+- Fixed bug in playing of video files
+
+v 0.9.5
+- Added first demo of Video's from Tumblr blogs with the v 1.0.0 release I hope to have this addition completed with the ability to search and save a list of Tumblr blogs to display. There is still some bug issue thing with the Playback looping and I think it's something with the Kodiswift framework...but still working on this.
+
+v 0.9.0/0.9.1
+- Removed dependency on my own custom build of Kodiswift as now the addon is part of the main Kodi Repo at version 0.7 so this will be installed automatically now if your system doesn't already have it.
+
+v 0.8.0
+- GayPower removed site appears offline, random bug fixes and improvements, category images added for some standard named categories that can be matched.
+
+v 0.6.0
+- Minor Bug Fixes, Additional attempts to resolve video's on website using slightly modified Livestreamer ex RunPlugin(plugin://plugin.video.livestreamerkodi/play/http...) Fixed Porkytube thumbnail URL spaces encoded to %20 as + caused 404
+v 0.5.0
+- Added PorkyTube site.
+
+v 0.4.0
+- Added Motherless with full search and included in multisite search results more group and tag functionality to come next. Also tried to fix some bugs on playback.
+
+v 0.3.0
+- YouTubeDL to resolve videostream URLs, Download Context Menu, URLResolver added, GayPower streaming, Category Lists, Search All Sites
+
+v 0.0.1
+- First Version attempting to use the HubTraffic affiliate API to present content from the PornHub network of sites.

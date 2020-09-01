@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hubgay" name="HubGAY" provider-name="moedje" version="1.4.5">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.xbmcswift2"/>
+        <import addon="script.module.youtube.dl"/>
+        <import addon="script.module.urlresolver"  optional="true"/>
+        <import addon="script.module.urlquick" optional="true"/>
+        <import addon="script.module.simple.downloader" optional="true"/>
+        <import addon="script.module.xbmcutil" optional="true"/>
+    </requires>
+    <extension library="addon.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>en</language>
+        <summary>[COLOR red]GAY or STRAIGHT XXX[/COLOR] Porn from Hub Traffic sites and GayPower</summary>
+        <description>STRAIGHT or GAY content filter in Settings default is GAY content. Unlike other addon's this uses the Hub Traffic JSON API's to retrieve video's from the Porn Hub network of sites: [COLOR yellow]PornHub[/COLOR], [COLOR pink]Spankwire[/COLOR], [COLOR green]Tube8[/COLOR], [COLOR blue]GayTube[/COLOR], [COLOR orange]XTube[/COLOR], [COLOR red]RedTube[/COLOR], and [COLOR purple]YouPorn[/COLOR]. [COLOR yellow]GayPower.org[/COLOR] Full Length DVD Streams from FlashX. [COLOR red][B]WARNING:[/B] Only for adults[/COLOR]
+            [B]1.3.4/5/6/7/8/9[/B]: Trying to fix problem with PorkyTube. 1.3.3: FIXED Fire Stick issue with URLQuick module. Install URLQuick from my Repo and this addon should work on the Fire stick hopefully. 1.2.0 NEW PLAY FUNCTION total rewrite of the video play code to fix many bugs in resolving and finding playable video's from a link and bugs with play/stop and more. v1.1.0: Fixed pornhub and xtube changed addon to use XBMCSWIFT2 instead of KODISWIFT 0.9.9/10/11 Added Context Menu for download to Tumblr, trying sort options. Fixed error in 0.9.9 Tumblr updated to support multiple blogs in settings seperated by a | will display each blog with thumbnail from the blog. More pages for browsing previous months and years from each blog. Very close to finished first version want to add a way to easily add and remove blogs not in settings. 0.9.8/7: Still working on tumblr It now works with any tumblr site and you can spedcify which blog it looks for video's at in the settings. The next/retrieve older is still a work in progress though. Improving the Tumblr function now to work for any blog specified in the settings. It uses the Tumblr Archive to request only video's from the blog. Next feature once this works well will be to allow for multiple tumblr sites to be displayed and browsed. 0.9.6: Fixed play bug in last release. 0.9.5: First attempt to add Tumblr Video's. GayPower removed site appears offline, random bug fixes and improvements, category images added for some standard named categories that can be matched. 0.6.0: Minor Bug Fixes, Additional attempts to resolve video's on website using slightly modified Livestreamer ex RunPlugin(plugin://plugin.video.livestreamerkodi/play/http...) Fixed Porkytube thumbnail URL spaces encoded to %20 as + caused 404 [B]V0.5.0 7/12[/B]: Added PorkyTube site. V0.4.0: Motherless added with full search and included in multisite search results more group and tag functionality to come next. Also tried to fix some bugs on playback. 0.3.0: YouTubeDL to resolve videostream URLs, Download Context Menu, URLResolver added, GayPower streaming, Category Lists, Search All Sites
+REQUIRED [B]Script.Module.URLResolver, Simple.Downloader, YouTubeDL, and KODIswift[/B] (https://github.com/Sinap/kodiswift) Optional Plugin.Video.Livestreamerkodi for additional URL resolving features.
+        </description>
+        <disclaimer>ADULTS ONLY - GAY and STRAIGHT XXX CONTENT
+        </disclaimer>
+    </extension>
+</addon>
